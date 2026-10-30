@@ -1,5 +1,8 @@
 # Backtest Pitfalls — how a few bugs manufacture a beautiful (and fake) equity curve
 
+![Python](https://img.shields.io/badge/python-3.12-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 > **How big a bias is has nothing to do with how easy it is to catch. The dangerous ones are the
 > 0.15–0.25 Sharpe gaps: exactly the difference between "mediocre" and "investable", and small
 > enough that nothing gives them away.**
