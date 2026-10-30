@@ -1,0 +1,19 @@
+# Python 3.12 (tested on 3.12.7). numpy 1.26 has no wheels for Python 3.13+,
+# so create the environment from a 3.12 interpreter, e.g.
+#   py -3.12 -m venv .venv   (Windows)   /   python3.12 -m venv .venv
+# then: pip install -r requirements.txt && python run_all.py
+
+# core
+pandas==2.2.2
+numpy==1.26.4
+yfinance==1.7.0
+pyarrow==16.1.0        # parquet cache
+matplotlib==3.9.2      # charts
+
+# notebooks (run_all.py re-executes them headless)
+nbformat==5.10.4
+nbclient==0.8.0
+ipykernel==6.28.0
+
+# dashboard (app.py); >= 1.46 is needed for dark-theme charts
+streamlit==1.66.1
